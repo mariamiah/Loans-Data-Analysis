@@ -13,7 +13,7 @@ Reasons:
 
 Library : Pandas
 Reason: Due to the large amount of data there is to analyze, i chose to use the pandas library rather than 
-the python CSV library
+the python CSV library for reading and organizing the loans data.
 
 
 ## Collecting data
@@ -23,7 +23,10 @@ Source : CSV
 - Download the dataset and place it in the same folder as the python script
 
 ## Visualization
-
+Framework of choice: Dash
+- Plotly's dash is a new framework for developing interactive web based dashboards for data visualization
+- It allows one to write pure python and the framework handles the rest
+- Gets data visualization solutions up and running in a relatively quick manner.
 ## How to run the script
 -  Run the script using a Python integrated development environment (IDE) such as Spyder. 
 -  To install Spyder, you will need to download the Anaconda installer.  

@@ -8,10 +8,12 @@ Service that consumes a kaggle dataset on a monthly basis
 
 ## Analysis
 Tool of choice: Python
+
 Reasons:
 - Has a number of libraries that support the analysis and collection of data
 
 Library : Pandas
+
 Reason: Due to the large amount of data there is to analyze, i chose to use the pandas library rather than 
 the python CSV library for reading and organizing the loans data.
 

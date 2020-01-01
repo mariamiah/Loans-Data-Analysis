@@ -25,6 +25,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # initialize the dash application
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+# access flask application instance for purposes of deployment
+server = app.server
 colors = {
     'background': '#e2ebf0',
     'text': '#273746',
